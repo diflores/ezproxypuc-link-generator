@@ -2,7 +2,7 @@
 
 ## :page_facing_up: Descripción
 
-Pequeña herramienta para obtener enlaces a papers utilizando Ezproxy.
+Pequeña herramienta para obtener enlaces a *papers* utilizando Ezproxy.
 
 ## :runner: Uso
 
