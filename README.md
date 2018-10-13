@@ -1,4 +1,4 @@
-# :star: Ezproxy link generator
+# :star: Ezproxy PUC link generator
 
 ## :page_facing_up: Descripción
 
