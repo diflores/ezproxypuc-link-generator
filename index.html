@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/skeleton/2.0.4/skeleton.min.css">
+    <link rel="stylesheet" href="./style.css">
+    <title>Ezproxy PUC Link Generator</title>
+</head>
+
+<body>
+    <div class="row">
+        <div class="twelve columns">
+            <h1 id="title">Ezproxy PUC</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve-columns">
+            <p id="introduction">
+            Esta página pretende servir a todo miembro de la comunidad UC que necesite obtener un enlace 
+            a un paper de manera fácil y rápida, sin importar si está en su computador o en su teléfono o <i>tablet</i>.
+            ¡Cualquier colaboración para mejorar esta herramienta es bienvenida!
+            </p>
+        </div>
+    </div>
+    <div class="row">
+        <div class="six columns">
+            <label for="paper-link">Ingresa link del <i>paper</i>: </label><br>
+            <input class="u-full-width" type="text" id="paper-link" name="paper-link">
+        </div>
+        <div class="six columns" id="button-container">
+            <button class="button-primary" onclick="appendLink()">Enviar</button>
+        </div>
+    </div>
+    <div class="row">
+        <div class="twelve columns" id="converted-link-container">
+            <p>El <i>link</i> es: </p>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+
+</html>
