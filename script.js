@@ -3,12 +3,12 @@ const convertLink = link => `http://ezproxy.puc.cl/login?url=${link}`;
 // Extracted from: https://stackoverflow.com/questions/5717093/check-if-a-javascript-string-is-a-url
 const isValidUrl = (string) => {
     try {
-      new URL(string);
-      return true;
+        new URL(string);
+        return true;
     } catch (_) {
-      return false;  
+        return false;  
     }
-  }
+};
 
 const appendLink = () => {
     const existingElem = document.getElementById("converted-link");
