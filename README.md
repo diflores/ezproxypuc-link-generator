@@ -6,4 +6,4 @@ Pequeña herramienta para obtener enlaces a *papers* utilizando Ezproxy.
 
 ## :runner: Uso
 
-La herramienta puede ser accedida desde [aquí](https://diflores.github.io/ezproxypuc-link-generator/).
+La herramienta puede ser accedida desde [aquí](http://ezproxy.danielaflores.io/).
